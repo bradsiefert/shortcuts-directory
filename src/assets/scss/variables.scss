@@ -9,3 +9,28 @@ $navbar-box-shadow-color: transparent;
 
 // Typography
 $title-weight: 900;
+$content-heading-color: #1B2357;
+$content-heading-weight: 800;
+
+$family-monospace: 'IBM Plex Mono';
+$family-code: 'IBM Plex Mono';
+// Bulma CSS Tweaks
+.section {
+  padding: 1rem 1.5rem;
+}
+
+// Buttons
+.button {
+  font-weight: 700;
+  font-family: 'IBM Plex Mono';
+}
+
+// Typography
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, {
+  margin-top: 0 !important;
+}
+
+// Menus
+.menu {
+  font-size: 0.9375rem;
+}

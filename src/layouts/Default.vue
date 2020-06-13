@@ -46,6 +46,12 @@
     <main>
       <slot/>
     </main>
+    
+    <footer>
+      <p class="has-text-centered">
+        <small>© 2020, Made by <a href="">Brad Siefert</a></small>
+      </p>
+    </footer>
 
   </div>
 </template>
@@ -69,7 +75,7 @@ export default {
     background-position: bottom center;
     background-size: contain, cover;
     background-repeat: no-repeat;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 767px) {
@@ -90,7 +96,8 @@ export default {
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.32);
     height: 4px;
   }
-
+  
+  // Navbar
   .navbar {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
