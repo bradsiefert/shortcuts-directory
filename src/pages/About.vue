@@ -3,7 +3,7 @@
     heroTitle="About this Directory" 
     heroSubtitle="Learn a bit about why I decided to make this directory of links."
   >
-    <section class="section">
+    <section class="section content">
       <div class="container tiny">
         <hr />
         <h2 class="title is-4">Origin</h2>
@@ -44,8 +44,8 @@
         </div>
 
         <p>
-          I&#8217;m a Chicago based UI/UX designer and photographer who loves creating technology that makes 
-          people&#8217;s lives more efficient. I&#8217;ve struggled to learn programming for many years and learning 
+          I'm a Chicago based UI/UX designer and photographer who loves creating technology that makes 
+          people's lives more efficient. I've struggled to learn programming for many years and learning 
           to program using the Shortcuts app clicked for me in a way that no other programming language did before. 
           It has enabled me to create all sorts of automations and shortcuts that make my life so much easier. For 
           more info about me, <a target="_new" href="https://brad.si/">please check out my website</a>.
@@ -55,8 +55,8 @@
         <h2 class="title is-4">Colophon</h2>
         <p>
           This site was designed in <a target="_new" href="https://www.sketch.com">Sketch</a> by Bohemian Coding. 
-          It&#8217;s frontend was coded using <a target="_new" href="https://gridsome.org">Gridsome</a> which is 
-          built on <a target="_new" href="https://vuejs.org">VueJS</a>. The site&#8217;s backend is maintained in 
+          It's frontend was coded using <a target="_new" href="https://gridsome.org">Gridsome</a> which is 
+          built on <a target="_new" href="https://vuejs.org">VueJS</a>. The site's backend is maintained in 
           <a target="_new" href="https://airtable.com">Airtable</a>. The type is set in 
           <a target="_new" href="https://fonts.google.com/specimen/Inter">Inter</a> and 
           <a target="_new" href="https://fonts.google.com/specimen/IBM+Plex+Mono">IBM Plex Mono</a> which are 

@@ -50,15 +50,62 @@ footer a:hover {
   padding: 1rem 1.5rem;
 }
 
-// Link Box Tiles
+// Link Boxes
+.box {
+  background-image: linear-gradient(180deg, #F5F5FF 0%, #FFFFFF 100%);
+  border: 1px solid #BBB9FF;
+  border-radius: 8px;
+  min-height: 192px;
+}
+
+@media (max-width: 769px) {
+  .box {
+    min-height: 0;
+  }
+}
+
 .box.link .media {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.box.link {
+  position: relative;
+}
+
 .box.link .media-left {
   margin-right: 0.75rem;
+}
+
+.box.link .media-content .title {
+  font-weight: 800;
+}
+
+.link-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: $family-monospace;
+  font-weight: 600;
+  font-size: 0.5625rem;
+  line-height: 0.6875rem;
+  color: $purple;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #eae4fe;
+  padding: 2px 12px 3px;
+  border-radius: 0 7px 0 5px;
+}
+
+.link-status.retired {
+  color: $pink;
+  background-color: lighten($pink,20%);
+}
+
+.link-status.out-of-date {
+  color: $cyan;
+  background-color: lighten($cyan,28%);
 }
 
 .link-developer {
@@ -98,5 +145,5 @@ footer a:hover {
 }
 
 .link-urls a.app-store:hover {
-  color: darken($pink, 12%);
+  color: darken($pink, 8%);
 }

@@ -4,7 +4,7 @@
       <div class="hero-header">
         <div class="top-bar"></div>
         <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="container skinny">
+          <div class="container super-skinny">
             <div class="navbar-brand">
               <a class="navbar-item" href="/">
                 <g-image alt="Shortcuts Directory Logo" src="@/assets/images/logo.svg" />
@@ -29,18 +29,18 @@
             </div>
           </div>
         </nav>
-      </div>
+      </div><!-- /hero-header -->
 
       <div class="hero-body">
         <div class="container super-skinny has-text-centered">
-          <h1 class="title is-2 has-text-white" style="margin-bottom: 32px;">
+          <h1 class="title is-2 has-text-white mb-6">
             {{ heroTitle }}
           </h1>
-          <div class="subtitle is-6 mb-6" style="color: #54AEFF;">
+          <div class="subtitle has-text-info is-6 mb-5">
             {{ heroSubtitle }} 
           </div>
         </div>
-      </div>
+      </div><!-- /hero-body -->
     </section>
 
     <main>
@@ -53,7 +53,6 @@
           &copy; {{ new Date().getFullYear() }}, Made by <a target="_blank" href="https://brad.si">Brad Siefert</a>
         </small>
       </p>
-
     </footer>
 
   </div>
@@ -66,12 +65,14 @@ export default {
     heroSubtitle: String,
   },
   data: () => ({
-    showNav: false,
+    showNav: false, // This is to make the navbar open/close on mobile.
   })
 };
 </script>
 
 <style lang="scss">
+  @import "@/assets/scss/variables.scss";
+
   // Hero
   .top-bar {
     background-image: linear-gradient(270deg, #9876F8 0%, #FF85B8 100%);
@@ -80,7 +81,7 @@ export default {
   }
 
   .hero {
-    min-height: 560px;
+    min-height: 480px;
     background-image: url('../assets/images/confetti.png'), linear-gradient(0deg, #7162B3 0%, #212C70 53%, #1B2357 100%);
     background-position: bottom center;
     background-size: contain, cover;
@@ -105,7 +106,7 @@ export default {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     font-size: 1.125rem;
-    font-weight: 800;
+    font-weight:   800;
   }
 
   .navbar-item img {
@@ -132,8 +133,8 @@ export default {
   }
 
   .menu-label {
-    font-size: 14px;
-    color: #1B2357;
+    font-size: 0.875rem;
+    color: $dark;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-weight: 800;
@@ -141,11 +142,11 @@ export default {
   }
   
   .menu-list a {
-    line-height: 17px;
+    line-height: 1.0625rem;
   }
 
   .menu-list a:hover {
-    border-radius: 1rem;
+    border-radius: 4rem;
   }
 
   .menu-list a:active {

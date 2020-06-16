@@ -1,14 +1,6 @@
-// Navbar
-$navbar-height: 4rem;
-$navbar-background-color: transparent;
-$navbar-box-shadow-color: transparent;
-$navbar-item-color: #FF81B9;
-$navbar-item-hover-color: #FFA7ED;
-$navbar-item-hover-background-color: transparent;
-$navbar-box-shadow-color: transparent;
-
 // Custom Colors
 $pink: #FF85B8;
+$dark-purple: #1B2357;
 
 // Colors
 $black:	#000000;
@@ -27,7 +19,7 @@ $orange:	#F59F50;
 $yellow:	#FFD24C;
 $green:	#21D274;
 $turquoise:	#10E1A3;
-$cyan:	#5AC3FE;
+$cyan:	#53B1FF;
 $blue:	#0775ED;
 $purple:	#5C58CE;
 $red:	#E74138;
@@ -39,13 +31,13 @@ $info: $cyan;
 $success: $green;
 $warning: $yellow;
 $danger: $red;
-$dark: #1B2357;
+$dark: $dark-purple;
 $text: $black-bis;
-
 
 // Typography
 $family-monospace: 'IBM Plex Mono';
 $family-code: 'IBM Plex Mono';
+$title-color: $dark;
 $title-weight: 900;
 $content-heading-color: $dark;
 $content-heading-weight: 800;
@@ -65,13 +57,29 @@ $size-7: 1rem;
 $size-8: 0.9375rem;
 $size-9: 0.875rem;
 $size-10: 0.75rem;
+
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8 $size-9 $size-10;
 $size-small: $size-9;
 $size-normal: $size-7;
 $size-medium: $size-6;
 $size-large: $size-4;
 
-// Menu
+// Spacing Sizes
+$spacing-values: (
+  "0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem, "4": 1rem, "5": 1.5rem,
+  "6": 2rem, "7": 3rem, "8": 4rem, "9": 5rem, "10": 6rem, "11": 12rem, "12": 16rem,
+);
+
+// Navbar
+$navbar-height: 4rem;
+$navbar-background-color: transparent;
+$navbar-box-shadow-color: transparent;
+$navbar-item-color: #FF81B9;
+$navbar-item-hover-color: #FFA7ED;
+$navbar-item-hover-background-color: transparent;
+$navbar-box-shadow-color: transparent;
+
+// Menus
 $menu-item-color: #FF81B9;
 $menu-item-hover-color: #FF81B9;
 $menu-item-hover-background-color: #FFF8FB;
@@ -82,17 +90,16 @@ $menu-list-link-padding: 0.5em 1em;
   font-size: $size-7;
 }
 
+@media (max-width: 767px) {
+  .menu-list {
+    font-size: $size-6;
+  }
+}
+
 // Boxes
 $box-color: $dark;
 $box-shadow: 0 0 0;
 $box-padding: 1rem;
-
-.box {
-  background-image: linear-gradient(180deg, #F5F5FF 0%, #FFFFFF 100%);
-  border: 1px solid #BBB9FF;
-  border-radius: 8px;
-  min-height: 192px;
-}
 
 // HRs
 $hr-background-color: $white-ter;
