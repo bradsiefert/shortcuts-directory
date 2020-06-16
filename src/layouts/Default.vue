@@ -33,7 +33,7 @@
 
       <div class="hero-body">
         <div class="container super-skinny has-text-centered">
-          <h1 class="title is-2 has-text-white mb-6">
+          <h1 class="title is-2 has-text-white mb-3">
             {{ heroTitle }}
           </h1>
           <div class="subtitle has-text-info is-6 mb-5">
@@ -59,15 +59,15 @@
 </template>
 
 <script>
-export default {
-  props: {
-    heroTitle: String,
-    heroSubtitle: String,
-  },
-  data: () => ({
-    showNav: false, // This is to make the navbar open/close on mobile.
-  })
-};
+  export default {
+    props: {
+      heroTitle: String,
+      heroSubtitle: String,
+    },
+    data: () => ({
+      showNav: false, // This is to make the navbar open/close on mobile.
+    })
+  };
 </script>
 
 <style lang="scss">

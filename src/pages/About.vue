@@ -73,9 +73,9 @@
 </template>
 
 <script>
-export default {
-  data: () => ({
-    showNav: false,
-  })
-};
+  export default {
+    data: () => ({
+      showNav: false,
+    })
+  };
 </script>
