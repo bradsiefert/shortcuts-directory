@@ -33,10 +33,10 @@
 
       <div class="hero-body">
         <div class="container super-skinny has-text-centered">
-          <h1 class="title is-1 has-text-white" style="margin-bottom: 32px;">
+          <h1 class="title is-2 has-text-white" style="margin-bottom: 32px;">
             {{ heroTitle }}
           </h1>
-          <div class="subtitle mb-6" style="color: #54AEFF;">
+          <div class="subtitle is-6 mb-6" style="color: #54AEFF;">
             {{ heroSubtitle }} 
           </div>
         </div>
@@ -49,8 +49,11 @@
     
     <footer>
       <p class="has-text-centered">
-        <small>© 2020, Made by <a href="">Brad Siefert</a></small>
+        <small>
+          &copy; {{ new Date().getFullYear() }}, Made by <a target="_blank" href="https://brad.si">Brad Siefert</a>
+        </small>
       </p>
+
     </footer>
 
   </div>
@@ -69,13 +72,19 @@ export default {
 </script>
 
 <style lang="scss">
+  // Hero
+  .top-bar {
+    background-image: linear-gradient(270deg, #9876F8 0%, #FF85B8 100%);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.32);
+    height: 4px;
+  }
+
   .hero {
     min-height: 560px;
     background-image: url('../assets/images/confetti.png'), linear-gradient(0deg, #7162B3 0%, #212C70 53%, #1B2357 100%);
     background-position: bottom center;
     background-size: contain, cover;
     background-repeat: no-repeat;
-    margin-bottom: 2rem;
   }
 
   @media (max-width: 767px) {
@@ -91,12 +100,6 @@ export default {
     justify-content: center;
   }
 
-  .top-bar {
-    background-image: linear-gradient(270deg, #9876F8 0%, #FF85B8 100%);
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.32);
-    height: 4px;
-  }
-  
   // Navbar
   .navbar {
     padding-top: 2.5rem;
@@ -121,5 +124,37 @@ export default {
     .navbar-brand img {
       width: 192px;
     }
+  }
+  
+  // Menu
+  .menu {
+    font-size: 0.9375rem;
+  }
+
+  .menu-label {
+    font-size: 14px;
+    color: #1B2357;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 1rem;
+  }
+  
+  .menu-list a {
+    line-height: 17px;
+  }
+
+  .menu-list a:hover {
+    border-radius: 1rem;
+  }
+
+  .menu-list a:active {
+    color: #9876F8;
+    background-color: #FAF8FF;
+    border-radius: 1rem;
+  }
+
+  .menu-label:not(:last-child) {
+    font-weight: 0.5rem;
   }
 </style>

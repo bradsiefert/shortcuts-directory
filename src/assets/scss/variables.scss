@@ -7,30 +7,98 @@ $navbar-item-hover-color: #FFA7ED;
 $navbar-item-hover-background-color: transparent;
 $navbar-box-shadow-color: transparent;
 
-// Typography
-$title-weight: 900;
-$content-heading-color: #1B2357;
-$content-heading-weight: 800;
+// Custom Colors
+$pink: #FF85B8;
 
+// Colors
+$black:	#000000;
+$black-bis:	#121212;
+$black-ter:	#333333;
+$grey-darker:	#444444;
+$grey-dark:	#555555;
+$grey:	#777777;
+$grey-light:	#999999;
+$grey-lighter:	#CCCCCC;
+$grey-lightest:	#DDDDDD;
+$white-ter:	#EEEEEE;
+$white-bis:	#FAFAFA;
+$white:	#FFFFFF;
+$orange:	#F59F50;
+$yellow:	#FFD24C;
+$green:	#21D274;
+$turquoise:	#10E1A3;
+$cyan:	#5AC3FE;
+$blue:	#0775ED;
+$purple:	#5C58CE;
+$red:	#E74138;
+
+$primary: $turquoise;
+$link: $purple;
+$link-light: $pink;
+$info: $cyan;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$dark: #1B2357;
+$text: $black-bis;
+
+
+// Typography
 $family-monospace: 'IBM Plex Mono';
 $family-code: 'IBM Plex Mono';
-// Bulma CSS Tweaks
-.section {
-  padding: 1rem 1.5rem;
-}
+$title-weight: 900;
+$content-heading-color: $dark;
+$content-heading-weight: 800;
 
-// Buttons
-.button {
-  font-weight: 700;
-  font-family: 'IBM Plex Mono';
-}
-
-// Typography
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, {
   margin-top: 0 !important;
 }
 
-// Menus
-.menu {
-  font-size: 0.9375rem;
+// Typography Sizes
+$size-1: 3.5rem;
+$size-2: 3rem;
+$size-3: 2.5rem;
+$size-4: 2rem;
+$size-5: 1.5rem;
+$size-6: 1.25rem;
+$size-7: 1rem;
+$size-8: 0.9375rem;
+$size-9: 0.875rem;
+$size-10: 0.75rem;
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8 $size-9 $size-10;
+$size-small: $size-9;
+$size-normal: $size-7;
+$size-medium: $size-6;
+$size-large: $size-4;
+
+// Menu
+$menu-item-color: #FF81B9;
+$menu-item-hover-color: #FF81B9;
+$menu-item-hover-background-color: #FFF8FB;
+$menu-list-line-height: 1.125;
+$menu-list-link-padding: 0.5em 1em;
+
+.menu-list {
+  font-size: $size-7;
+}
+
+// Boxes
+$box-color: $dark;
+$box-shadow: 0 0 0;
+$box-padding: 1rem;
+
+.box {
+  background-image: linear-gradient(180deg, #F5F5FF 0%, #FFFFFF 100%);
+  border: 1px solid #BBB9FF;
+  border-radius: 8px;
+  min-height: 192px;
+}
+
+// HRs
+$hr-background-color: $white-ter;
+$hr-height: 1px;
+$hr-margin: 2rem 0;
+
+hr {
+  background-image: linear-gradient(270deg, #9876F8 0%, #FF85B8 100%);
 }

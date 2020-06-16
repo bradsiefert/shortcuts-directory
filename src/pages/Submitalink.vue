@@ -7,41 +7,45 @@
   <section class="section">
     <div class="container tiny">
       <div class="content">
-        <div class="divider"></div>
-        <h2 class="title is-3">Send Me a Link</h2>
+        <hr />
+        <h2 class="title is-4">Send a Link</h2>
+        
+        <form action="">
+          <div class="field">
+            <label for="Contact Name" class="label">Name</label>
+            <div class="control">
+              <input name="Contact Name" class="input" type="text" placeholder="Your Name">
+              <p class="help"><em>Optional</em></p>
+            </div>
+          </div>
 
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="e.g Alex Smith">
+          <div class="field">
+            <label for="" class="label">Email</label>
+            <div class="control">
+              <input name="Email Address" class="input" type="email" placeholder="name@email.com">
+            </div>
+            <p class="help"><em>Optional</em></p>
           </div>
-        </div>
 
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control">
-            <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+          <div class="field">
+            <label for="URL" class="label">URL to Send</label>
+            <div class="control">
+              <input name="URL" class="input" type="text" placeholder="https://">
+            </div>
           </div>
-          <p class="help"><em>Optional</em></p>
-        </div>
-        
-        <div class="field">
-          <label class="label">Link</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="https://">
+          
+          <div class="field">
+            <label for="Message" class="label">Message</label>
+            <textarea name="Message" class="textarea" placeholder="Send a message if you'd like."></textarea>
+            <p class="help"><em>Optional</em></p>
           </div>
-        </div>
-        
-        <div class="field">
-          <label class="label">Message</label>
-          <textarea class="textarea" placeholder="Send a message if you'd like. (Optional)"></textarea>
-        </div>
-        
-        <div class="field">
-          <div class="control">
-            <button class="button is-link is-medium is-fullwidth">Send Link</button>
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-link is-medium is-fullwidth">Send it ✅</button>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
 
     </div>
@@ -50,12 +54,8 @@
 </template>
 
 <script>
-import HeroBody from '@/components/HeroBody.vue'
 
 export default {
-  components: {
-    HeroBody
-  },
   data: () => ({
     showNav: false,
   })

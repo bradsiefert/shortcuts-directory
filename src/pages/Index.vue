@@ -7,7 +7,7 @@
   >
     <section class="section">
       <div class="container skinny">
-        <div class="divider"></div>
+        <hr class="divider"></hr>
 
         <div class="columns">
           <div class="column is-one-quarter">
@@ -29,27 +29,85 @@
               </ul>
             </aside>
           </div>
-          <div class="column content">
-            <h2 class="title is-3">Start Here</h2>
-            <p>
-              New to Shortcuts? These links are the best places to start. Lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. In faucibus justo sed pulvinar hendrerit. Vivamus interdum sapien sapien, sit amet tempus 
-              justo lacinia ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis 
-              egestas. 
-            </p>
+
+          <div class="column is-three-quarters">
+            <div class="content">
+              <hr class="divider is-hidden-tablet"></hr>
+              <h2 class="title is-4 mb-3">Start Here</h2>
+              <p>
+                New to Shortcuts? These links are the best places to start. These links are each full of great resources to help you learn about Shortcuts, especially for beginners. The Shortcuts User Guide is Apple's user manual for the Shortcuts app. The Shortcuts subreddit is a good place to ask questions or search or solutions if you're having issues. Matthew Cassinelli and MacStories each have hundreds of shortcuts on their sites for you to check out and customize to fit your needs.
+              </p>
+            </div>
+
+            <!-- Inner Columns -->
+            <div class="columns is-multiline is-mobile">
+              <!-- Box for App -->
+              <div class="column is-half">
+                <div class="box link">
+                  <article class="media mb-2">
+                    <figure class="media-left">
+                      <p class="image is-48x48">
+                        <a href="">
+                          <g-image src="@/assets/images/link-default-avatar.png" />
+                        </a>
+                      </p>
+                    </figure>
+                    <div class="media-content">
+                      <a href="">
+                        <p class="title is-6 has-text-dark">Data Jar</p>
+                      </a>
+                    </div>
+                  </article>
+                  <p class="link-developer is-3">by Simon B. Støvring</p>
+                  <p class="link-description">
+                    Data Jar is a data store designed to be used with Shortcuts. The data store lets you persist 
+                    key-value pairs.
+                  </p>
+                  <p class="link-urls">
+                    <ul>
+                      <li><a href="">&rarr; datajar.app</a></li>
+                      <li><a class="app-store" href="">&rarr; App Store</a></li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Box for Link -->
+              <div class="column is-half">
+                <div class="box link">
+                  <article class="media mb-2">
+                    <figure class="media-left">
+                      <p class="image is-48x48">
+                        <g-image src="@/assets/images/link-default-avatar.png" />
+                      </p>
+                    </figure>
+                    <div class="media-content">
+                      <div class="title is-6 has-text-dark">Data Jar</div>
+                    </div>
+                  </article>
+                  <p class="link-description">
+                    Data Jar is a data store designed to be used with Shortcuts. The data store lets you persist 
+                    key-value pairs.
+                  </p>
+                  <p class="link-urls">
+                    <ul>
+                      <li><a href="">&rarr; datajar.app</a></li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Inner Columns -->
+
         </div>
       </div>
     </section>
-
   </Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Hello, world!',
-  },
   data () {
     return {
       title: "Curated lists of the best links about Shortcuts"

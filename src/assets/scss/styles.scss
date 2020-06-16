@@ -1,37 +1,18 @@
 @import "variables.scss";
 @import "~bulma";
 
-html, body {
-
-}
-
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-// Bulma CSS Tweaks
-.section {
-  padding: 1rem 1.5rem;
+  font-family: 'Inter', "BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+  "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif";
 }
 
 // Buttons
 .button {
   font-weight: 700;
-  font-family: 'IBM Plex Mono';
+  font-family: $family-code;
 }
 
-// Typography
-.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, {
-  margin-top: 0 !important;
-}
-
-// Menus
-.menu {
-  font-size: 0.9375rem;
-}
-
-// Container Widths
+// Containers
 .skinny {
   max-width: 60rem;
 }
@@ -41,27 +22,81 @@ body {
 }
 
 .tiny {
-  max-width: 32rem;
+  max-width: 40rem;
 }
 
 // Footer
 footer {
-  background: #F5F5FF;
+  background-color: #F5F5FF;
   box-shadow: inset 0 1px 0 0 #BBB9FF;
-  min-height: 192px;
+  font-family: $family-code;
+  color: $purple;
   margin-top: 8rem;
-  color: #5C58CE;
-  font-family: 'IBM Plex Mono';
   padding: 1rem;
 }
 
-footer a, footer a:hover {
-  color: #5C58CE;
+footer a {
+  color: $purple;
   text-decoration: underline;
 }
 
-.divider {
-  background-image: linear-gradient(270deg, #9876F8 0%, #FF85B8 100%);
-  height: 1px;
-  margin: 0 0 2rem;
+footer a:hover {
+  color: darken($purple, 16%);
+  text-decoration: underline;
+}
+
+// UI
+.section {
+  padding: 1rem 1.5rem;
+}
+
+// Link Box Tiles
+.box.link .media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box.link .media-left {
+  margin-right: 0.75rem;
+}
+
+.link-developer {
+  font-family: $family-code;
+  font-weight: bold;
+  font-size: $size-8;
+  margin-bottom: 0.5rem;
+  color: $black;
+}
+
+.link-description {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: $grey;
+  min-height: 64px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 769px) {
+  .link-description {
+    min-height: 0;
+  }
+}
+
+.link-urls {
+  font-family: $family-code;
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.link-urls a:hover {
+  color: darken($link, 20%);
+}
+
+.link-urls a.app-store {
+  color: $pink;
+}
+
+.link-urls a.app-store:hover {
+  color: darken($pink, 12%);
 }
