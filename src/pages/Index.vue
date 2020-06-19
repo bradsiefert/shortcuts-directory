@@ -46,8 +46,8 @@
 <page-query>
 query Links {
   links: allLink (
-    sortBy: "sortingOrderId" order: DESC
     filter: { category: { contains: "Start Here" } }
+    sortBy: "sortingOrderId" order: ASC
   ) {
     edges {
       node {
@@ -60,6 +60,7 @@ query Links {
         appStoreUrl
         appDeveloper
         urlShort
+        urlDomain
         iconShort
         sortingOrderId
       }
@@ -75,7 +76,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Start Here'
+    title: 'Links / Start Here'
   },
   components: {
     Categories, Layout, Link
