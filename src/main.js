@@ -20,6 +20,6 @@ export default function (Vue, { router, head, isClient }) {
   // Import Google Fonts
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Inter:wght@400;600;800;900&display=swap'
+    href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap'
   })
 }
