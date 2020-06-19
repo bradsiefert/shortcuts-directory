@@ -73,9 +73,12 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      showNav: false,
-    })
-  };
+export default {
+  metaInfo: {
+    title: 'About'
+  },
+  data: () => ({
+    showNav: false,
+  })
+}
 </script>

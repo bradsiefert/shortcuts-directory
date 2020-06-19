@@ -54,6 +54,9 @@
 <script>
 
 export default {
+  metaInfo: {
+    title: 'Submit a Link'
+  },
   data: () => ({
     showNav: false,
   })
