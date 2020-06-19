@@ -1,0 +1,115 @@
+// What I downloaded:
+LEFT(
+  SUBSTITUTE(
+    SUBSTITUTE(  
+      SUBSTITUTE({URL},"https://",""),"http://",""
+    ),"www.",""
+  )
+  FIND("/",
+    SUBSTITUTE(
+      SUBSTITUTE({URL},“http://”,""),“https://”,""
+    )
+  )-1
+)
+
+// Working on it it
+
+// removing the part before the domain
+SUBSTITUTE(
+  SUBSTITUTE(  
+    SUBSTITUTE({URL},"https://",""),"http://",""
+  ),"www.",""
+)
+
+// Figuring out the # of characters to the left of the slash
+FIND("/",
+  SUBSTITUTE(
+    SUBSTITUTE(  
+      SUBSTITUTE({URL},"https://",""),"http://",""
+    ),"www.",""
+  )
+)
+
+
+// Works but only for some domains
+LEFT(
+  SUBSTITUTE(
+    SUBSTITUTE(  
+      SUBSTITUTE({URL},"https://",""),"http://",""
+    ),"www.",""
+  ),
+  FIND("/",
+    SUBSTITUTE(
+      SUBSTITUTE(  
+        SUBSTITUTE({URL},"https://",""),"http://",""
+      ),"www.",""
+    )
+  )-1
+)
+
+
+
+// Added Comments to the formula 
+IF(
+  LEN(
+    // This removes everything before the front of the link
+    SUBSTITUTE(
+      SUBSTITUTE(  
+        SUBSTITUTE({URL},"https://",""),"http://",""
+      ),"www.",""
+    )
+  )>32,
+  // If Longer than 32...
+  LEFT(
+    SUBSTITUTE(
+      SUBSTITUTE(  
+        SUBSTITUTE({URL},"https://",""),"http://",""
+      ),"www.",""
+    ),32
+  )&"...",
+  // If not than 32...
+  SUBSTITUTE(
+    SUBSTITUTE(  
+      SUBSTITUTE({URL},"https://",""),"http://",""
+    ),"www.",""
+  )
+)
+
+// This is dumb, but it works. I added an IF statement because the LEFT() ended up outputting a 0. 
+// SOooo... The LEFT() + FIND() is 
+
+IF(
+  LEFT(
+    SUBSTITUTE(
+      SUBSTITUTE(  
+        SUBSTITUTE({URL},"https://",""),"http://",""
+      ),"www.",""
+    ),
+    FIND("/",
+      SUBSTITUTE(
+        SUBSTITUTE(  
+          SUBSTITUTE({URL},"https://",""),"http://",""
+        ),"www.",""
+      )
+    )-1
+  ), // This works for links that have a / and eliminates everything after the slash
+  LEFT(
+    SUBSTITUTE(
+      SUBSTITUTE(  
+        SUBSTITUTE({URL},"https://",""),"http://",""
+      ),"www.",""
+    ),
+    FIND("/",
+      SUBSTITUTE(
+        SUBSTITUTE(  
+          SUBSTITUTE({URL},"https://",""),"http://",""
+        ),"www.",""
+      )
+    )-1
+  ), // This works on links that don't have a slash 
+  SUBSTITUTE(
+    SUBSTITUTE(  
+      SUBSTITUTE({URL},"https://",""),"http://",""
+    ),"www.",""
+  )
+)
