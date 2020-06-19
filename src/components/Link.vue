@@ -20,7 +20,9 @@
     </p>
     <p class="link-urls my-0">
       <ul>
-        <li><g-link :to="link.url">&rarr; {{link.urlDomain}}</g-link></li>
+        <li><g-link :to="link.url" rel="noreferrer">
+          &rarr; {{link.urlDomain}}
+        </g-link></li>
       </ul>
     </p>
   </div>

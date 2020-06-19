@@ -52,8 +52,11 @@
     <footer>
       <p class="has-text-centered">
         <small>
-          &copy; {{ new Date().getFullYear() }}, Made by <a target="_blank" href="https://brad.si">Brad Siefert</a> 
-          <a target="_blank" href="https://twitter.com/bksiefert"><font-awesome :icon="['fab', 'twitter']" class="ml-3"/></a>
+          &copy; {{ new Date().getFullYear() }}, Made by 
+          <a target="_blank" href="https://brad.si" title="Brad Siefert's Design Portfolio" rel="noreferrer">
+            Brad Siefert</a>
+          <a target="_blank" href="https://twitter.com/bksiefert" title="Brad Siefert's Twitter" rel="noreferrer">
+          <font-awesome :icon="['fab', 'twitter']" class="ml-3"/></a>
         </small>
       </p>
     </footer>
