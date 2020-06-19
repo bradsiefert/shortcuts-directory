@@ -8,19 +8,19 @@
         <hr />
         <h2 class="title is-4">Origin</h2>
         <a target="_blank" href="https://twitter.com/maxlind/status/1264958953336823809">
-          <g-image alt="Max Lind's Tweet" src="@/assets/images/max-tweet.jpg" class="mb-3"/>
+          <g-image alt="Max Lind's Tweet about manually curated directories" src="@/assets/images/max-tweet.jpg" class="mb-3"/>
         </a>
         <p>
-          A really sharp guy, <a target="_new" href="https://twitter.com/maxlind">Max Lind</a> tweeted what you see 
-          above. I found myself thinking about the phrase "manually curated directories" over and over for the next 
-          few days. I couldn't stop thinking about it. That tweet got me excited and I knew that I had to create 
-          this site. 
+          A really sharp guy who I follow, <a target="_new" href="https://twitter.com/maxlind">Max Lind</a>, tweeted 
+          what you see above. I found myself thinking about the phrase "manually curated directories" over and over for 
+          the next few days. I couldn't stop thinking about it. That tweet got me excited and I knew that I had to 
+          create this site. 
         </p>
 
         <p>
-          I love Shortcuts, I think it's one of the most exciting No-code platforms right now, but 
-          I'm worried that people don't know where to start when it comes to creating their own shortcuts. I hope this 
-          site connects you with the resources to make all kinds of shortcuts that make your life better.
+          I love Shortcuts, I think it's one of the most exciting No-code platforms right now, but I'm worried that 
+          people don't know where to start when it comes to creating their own shortcuts. I hope this site connects 
+          you with the resources to make all kinds of shortcuts that make your life better.
         </p>
 
         <hr />
@@ -53,7 +53,8 @@
           people's lives more efficient. I've struggled to learn programming for many years and learning 
           to use the Shortcuts app clicked for me in a way that no other programming language did before. 
           For more info about me, please check out <a target="_new" href="https://brad.si/">my design portfolio</a> or 
-          <a target="_new" href="https://bradleysiefert.com/">my photography portfolio</a>.
+          <a target="_new" href="https://bradleysiefert.com/">my photography portfolio</a> or hit me up on 
+          <a target="_blank" href="https://twitter.com/bksiefert">Twitter</a>.
         </p>
 
         <hr />

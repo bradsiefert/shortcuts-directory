@@ -13,17 +13,15 @@
         <div class="field">
           <label for="Contact Name" class="label">Name</label>
           <div class="control">
-            <input name="Contact Name" class="input" type="text" placeholder="Your Name">
-            <p class="help"><em>Optional</em></p>
+            <input name="Contact Name" class="input" type="text" placeholder="Your Name (optional)">
           </div>
         </div>
 
         <div class="field">
           <label for="" class="label">Email</label>
           <div class="control">
-            <input name="Email Address" class="input" type="email" placeholder="name@email.com">
+            <input name="Email Address" class="input" type="email" placeholder="name@email.com (optional)">
           </div>
-          <p class="help"><em>Optional</em></p>
         </div>
 
         <div class="field">
@@ -35,8 +33,7 @@
 
         <div class="field">
           <label for="Message" class="label">Message</label>
-          <textarea name="Message" class="textarea" placeholder="Send a message if you'd like."></textarea>
-          <p class="help"><em>Optional</em></p>
+          <textarea name="Message" class="textarea" placeholder="Send a message if you'd like. (optional)"></textarea>
         </div>
 
         <div class="field">
