@@ -11,23 +11,7 @@
 
         <div class="columns">
           <div class="column is-one-quarter-desktop is-one-fifth-tablet">
-            <aside class="menu">
-              <p class="menu-label">
-                Categories
-              </p>
-              <ul class="menu-list">
-                <li class="active"><a>Start Here</a></li>
-                <li><a>News & Blogs</a></li>
-                <li><a>Galleries</a></li>
-                <li><a>Podcasts</a></li>
-                <li><a>Paid Training</a></li>
-                <li><a>Enthusiast Creators</a></li>
-                <li><a>Extension Apps</a></li>
-                <li><a>Power Tools</a></li>
-                <li><a>Communities</a></li>
-                <li><a>International</a></li>
-              </ul>
-            </aside>
+            <Categories />
           </div>
 
           <div class="column">
