@@ -1,38 +1,38 @@
 <template lang="html">
-  <div class="column is-half">
-    <div class="box link">
-      <div class="link-status">Active</div>
-      <article class="media mb-2">
-        <figure class="media-left">
-          <p class="image is-48x48">
-            <a href="">
-              <g-image src="@/assets/images/link-default-avatar.png" />
-            </a>
-          </p>
-        </figure>
-        <div class="media-content">
-          <a href="">
-            <p class="title is-6 has-text-dark">Data Jar</p>
-          </a>
-        </div>
-      </article>
-      <p class="link-developer is-3">by Simon B. Støvring</p>
-      <p class="link-description">
-        Data Jar is a data store designed to be used with Shortcuts. The data store lets you persist 
-        key-value pairs.
-      </p>
-      <p class="link-urls">
-        <ul>
-          <li><a href="">&rarr; datajar.app</a></li>
-          <li><a class="app-store" href="">&rarr; App Store</a></li>
-        </ul>
-      </p>
-    </div>
+  <div class="box link app">
+    <div class="link-status">{{link.status}}</div>
+    <article class="media mb-2">
+      <figure class="media-left">
+        <p class="image is-48x48">
+          <g-link :to="link.url">
+            <g-image :src="link.iconShort" class="" />
+          </g-link>
+        </p>
+      </figure>
+      <div class="media-content">
+        <g-link :to="link.url">
+          <p class="title is-6 has-text-dark">{{link.linkName}}</p>
+        </g-link>
+      </div>
+    </article>
+    <p class="link-developer">by {{link.appDeveloper}}</p>
+    <p class="link-description">
+      {{link.description}}
+    </p>
+    <p class="link-urls my-0">
+      <ul>
+        <li><g-link :to="link.url">&rarr; {{link.urlDomain}}</g-link></li>
+        <li><a class="app-store" href="/">&rarr; App Store</a></li>
+      </ul>
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LinkApp'
+  name: 'LinkApp',
+  props: {
+    link: Object
+  }
 }
 </script>
