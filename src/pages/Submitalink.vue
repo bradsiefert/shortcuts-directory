@@ -9,7 +9,19 @@
       <hr />
       <h2 class="title is-4">Send a Link</h2>
 
-      <form name="contact" method="POST" data-netlify="true">
+      <form 
+        name="Shortcuts Directory / Contact Form"
+        method="post"
+        action="/success/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+      <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
         <div class="field">
           <label for="Contact Name" class="label">Name</label>
           <div class="control">
@@ -56,6 +68,11 @@ export default {
   },
   data: () => ({
     showNav: false,
-  })
+  }),
+  data() {
+    return {
+      formData: {},
+    }
+  }
 };
 </script>
