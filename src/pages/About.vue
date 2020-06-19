@@ -14,8 +14,13 @@
           A really sharp guy, <a target="_new" href="https://twitter.com/maxlind">Max Lind</a> tweeted what you see 
           above. I found myself thinking about the phrase "manually curated directories" over and over for the next 
           few days. I couldn't stop thinking about it. That tweet got me excited and I knew that I had to create 
-          this site. I love Shortcuts, I think it's one of the most exciting programming platforms right now, but 
-          I'm worried that people don't know where to start when it comes to creating their own shortcuts. 
+          this site. 
+        </p>
+
+        <p>
+          I love Shortcuts, I think it's one of the most exciting No-code platforms right now, but 
+          I'm worried that people don't know where to start when it comes to creating their own shortcuts. I hope this 
+          site connects you with the resources to make all kinds of shortcuts that make your life better.
         </p>
 
         <hr />
@@ -46,15 +51,15 @@
         <p>
           I'm a Chicago based UI/UX designer and photographer who loves creating technology that makes 
           people's lives more efficient. I've struggled to learn programming for many years and learning 
-          to program using the Shortcuts app clicked for me in a way that no other programming language did before. 
-          It has enabled me to create all sorts of automations and shortcuts that make my life so much easier. For 
-          more info about me, <a target="_new" href="https://brad.si/">please check out my website</a>.
+          to use the Shortcuts app clicked for me in a way that no other programming language did before. 
+          For more info about me, please check out <a target="_new" href="https://brad.si/">my design portfolio</a> or 
+          <a target="_new" href="https://bradleysiefert.com/">my photography portfolio</a>.
         </p>
 
         <hr />
         <h2 class="title is-4">Colophon</h2>
         <p>
-          This site was designed in <a target="_new" href="https://www.sketch.com">Sketch</a> by Bohemian Coding. 
+          I designed this site in <a target="_new" href="https://www.sketch.com">Sketch</a> by Bohemian Coding. 
           It's frontend was coded using <a target="_new" href="https://gridsome.org">Gridsome</a> which is 
           built on <a target="_new" href="https://vuejs.org">VueJS</a>. The site's backend is maintained in 
           <a target="_new" href="https://airtable.com">Airtable</a>. The type is set in 
@@ -63,7 +68,7 @@
           available from Google Fonts. This 
           <a target="_new" href="https://gridsome.org/starters/airtable-events-starter/">Gridsome + Airtable</a> 
           starter was incredibly helpful and <a target="_new" href="https://kro.ski">Kris Kroski</a> helped get 
-          me unstuck when I ran into all sorts of little issues.
+          me unstuck when I ran into all sorts of issues.
         </p>
         <hr class="mb-0"/>
       </div>
