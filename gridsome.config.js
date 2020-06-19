@@ -21,7 +21,7 @@ module.exports = {
             name: 'Links', // required
             typeName: 'Link', // required
             select: {
-              sort: [{field: "Sorting Order ID", direction: "desc"}],
+              sort: [{field: "Sorting Order ID", direction: "asc"}],
             },
           },
         ],
