@@ -42,15 +42,18 @@
         </div>
       </div><!-- /hero-body -->
     </section>
-
-    <main>
-      <slot/>
-    </main>
+    
+    <transition name="fade" appear>
+      <main>
+        <slot/>
+      </main>
+    </transition>
     
     <footer>
       <p class="has-text-centered">
         <small>
-          &copy; {{ new Date().getFullYear() }}, Made by <a target="_blank" href="https://brad.si">Brad Siefert</a>
+          &copy; {{ new Date().getFullYear() }}, Made by <a target="_blank" href="https://brad.si">Brad Siefert</a> 
+          <a target="_blank" href="https://twitter.com/bksiefert"><font-awesome :icon="['fab', 'twitter']" class="ml-3"/></a>
         </small>
       </p>
     </footer>
@@ -72,6 +75,14 @@
 
 <style lang="scss">
   @import "@/assets/scss/variables.scss";
+  .fade-enter-active {
+    transition: opacity .5s;
+  }
+
+  .fade-enter {
+    opacity: 0;
+  }
+
 
   // Hero
   .top-bar {
