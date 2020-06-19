@@ -12,18 +12,20 @@ module.exports = {
   icon: 'src/favicon.png',
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: '@gridsome/source-airtable',
       options: {
-        path: 'blog/**/*.md',
-        route: '/blog/:year/:month/:day/:slug',
-        remark: {
-          plugins: [
-            [ '@noxify/gridsome-plugin-remark-embed', {
-                'enabledProviders' : ['Youtube', 'Twitter'],
-            }]
-          ]
-        }
-      }
-    }
-  ]
+        apiKey: process.env.AIRTABLE_KEY, // required
+        base: process.env.AIRTABLE_BASE, // required
+        tables: [
+          {
+            name: 'Links', // required
+            typeName: 'Link', // required
+            select: {
+              sort: [{field: "Sorting Order ID", direction: "desc"}],
+            },
+          },
+        ],
+      },
+    },
+  ],
 }

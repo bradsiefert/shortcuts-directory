@@ -8,11 +8,8 @@
   },
   "dependencies": {
     "@gridsome/source-airtable": "^0.2.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
     "bulma": "^0.9.0",
-    "gridsome": "^0.7.0",
-    "gridsome-plugin-remark-twitter": "^0.2.1"
+    "gridsome": "^0.7.0"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
