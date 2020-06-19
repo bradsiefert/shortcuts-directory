@@ -5,7 +5,7 @@
       <figure class="media-left">
         <p class="image is-48x48">
           <g-link :to="link.url">
-            <g-image :src="link.iconShort" class="" />
+            <g-image :src="link.iconShort" :alt="`Logo for ${link.linkName}`" />
           </g-link>
         </p>
       </figure>
