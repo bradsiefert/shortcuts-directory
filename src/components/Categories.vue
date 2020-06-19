@@ -4,16 +4,16 @@
       Categories
     </p>
     <ul class="menu-list">
-      <li><g-link to="/" exact>Start Here</g-link></li>
-      <li><g-link to="/gallerysites">Gallery Sites</g-link></li>
-      <li><g-link to="/enthusiastcreators">Enthusiast Creators</g-link></li>
-      <li><g-link to="/extensionapps">Extension Apps</g-link></li>
-      <li><g-link to="/podcasts">Podcasts</g-link></li>
-      <li><g-link to="/training">Paid Training</g-link></li>
-      <li><g-link to="/communities">Communities</g-link></li>
-      <li><g-link to="/newsandblogs">News & Blogs</g-link></li>
-      <li><g-link to="/powertools">Power Tools</g-link></li>
-      <li><g-link to="/international">International</g-link></li>
+      <li><g-link title="Start Here" to="/" exact>Start Here</g-link></li>
+      <li><g-link title="Gallery Sites" to="/gallerysites">Gallery Sites</g-link></li>
+      <li><g-link title="Enthusiast Creators" to="/enthusiastcreators">Enthusiast Creators</g-link></li>
+      <li><g-link title="Enthusiast Creators" to="/extensionapps">Enthusiast Creators</g-link></li>
+      <li><g-link title="Podcasts" to="/podcasts">Podcasts</g-link></li>
+      <li><g-link title="Paid Training" to="/training">Paid Training</g-link></li>
+      <li><g-link title="Communities" to="/communities">Communities</g-link></li>
+      <li><g-link title="News & Blogs" to="/newsandblogs">News & Blogs</g-link></li>
+      <li><g-link title="Power Tools" to="/powertools">Power Tools</g-link></li>
+      <li><g-link title="International" to="/international">International</g-link></li>
     </ul>
   </aside>
 </template>

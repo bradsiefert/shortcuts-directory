@@ -4,7 +4,7 @@
     <article class="media mb-2">
       <figure class="media-left">
         <p class="image is-48x48">
-          <g-link :to="link.url">
+          <g-link :to="link.url" :title="`Link to ${link.linkName}`">
             <g-image :src="link.iconShort" :alt="`Logo for ${link.linkName}`" />
           </g-link>
         </p>
