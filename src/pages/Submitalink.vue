@@ -9,7 +9,7 @@
       <hr />
       <h2 class="title is-4">Send a Link</h2>
 
-      <form action="">
+      <form name="contact" method="POST" data-netlify="true">
         <div class="field">
           <label for="Contact Name" class="label">Name</label>
           <div class="control">
@@ -38,7 +38,7 @@
 
         <div class="field">
           <div class="control">
-            <button class="button is-link is-medium is-fullwidth">Send it ✅</button>
+            <button class="button is-link is-medium is-fullwidth" type="submit">Send it ✅</button>
           </div>
         </div>
       </form>
