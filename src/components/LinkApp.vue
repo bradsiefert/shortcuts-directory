@@ -21,8 +21,12 @@
     </p>
     <p class="link-urls my-0">
       <ul>
-        <li><g-link :to="link.url">&rarr; {{link.urlDomain}}</g-link></li>
-        <li><a class="app-store" href="/">&rarr; App Store</a></li>
+        <li><g-link :to="link.url" rel="noreferrer">
+          &rarr; {{link.urlDomain}}
+        </g-link></li>
+        <li><g-link :to="link.appStoreUrl" rel="noreferrer" class="app-store">
+          &rarr; App Store
+        </g-link></li>
       </ul>
     </p>
   </div>
