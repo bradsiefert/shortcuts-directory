@@ -30,12 +30,9 @@
             <!-- Inner Columns Begin -->
             <div class="columns is-multiline">
 
-              <Link />
-              <Link />
-              <Link />
-              <Link />
-              <Link />
-              <Link />
+              <div class="column is-half" v-for="edge in $page.links.edges" :key="edge.node.id">
+                <Link :link="edge.node"/> 
+              </div>
 
             </div><!-- /columns is-multiline-->
           </div>
@@ -46,18 +43,47 @@
   </Layout>
 </template>
 
+<page-query>
+query Links {
+  links: allLink (
+    sortBy: "sortingOrderId" order: DESC
+    filter: { category: { contains: "Start Here" } }
+  ) {
+    edges {
+      node {
+        id
+        linkName
+        description
+        url
+        category
+        status
+        appStoreUrl
+        appDeveloper
+        urlShort
+        iconShort
+        sortingOrderId
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
+import Layout from '@/layouts/Default.vue'
+import Categories from '@/components/Categories.vue'
 import Link from '@/components/Link.vue'
-import LinkApp from '@/components/LinkApp.vue'
 
 export default {
+  metaInfo: {
+    title: 'Start Here'
+  },
+  components: {
+    Categories, Layout, Link
+  },
   data () {
     return {
       title: "Curated lists of the best links about Shortcuts"
     }
-  },
-  components: {
-    Link, LinkApp
   }
 }
 </script>

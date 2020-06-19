@@ -1,36 +1,38 @@
 <template lang="html">
-  <div class="column is-half">
     <div class="box link">
-      <div class="link-status">Active</div>
+      <div class="link-status">{{link.status}}</div>
       <article class="media mb-2">
         <figure class="media-left">
           <p class="image is-48x48">
-            <a href="">
-              <g-image src="@/assets/images/link-default-avatar.png" />
-            </a>
+            <g-link :to="link.url">
+              <g-image :src="link.iconShort" class="" />
+            </g-link>
           </p>
         </figure>
         <div class="media-content">
-          <a href="">
-            <p class="title is-6 has-text-dark">Data Jar</p>
-          </a>
+          <g-link :to="link.url">
+            <p class="title is-6 has-text-dark">{{link.linkName}}</p>
+          </g-link>
         </div>
       </article>
       <p class="link-description">
-        Data Jar is a data store designed to be used with Shortcuts. The data store lets you persist 
-        key-value pairs.
+        {{link.description}}
       </p>
-      <p class="link-urls">
+      <p class="link-urls my-0">
         <ul>
-          <li><a href="">&rarr; datajar.app</a></li>
+          <li><g-link :to="link.url">&rarr; {{link.urlShort}}</g-link></li>
         </ul>
       </p>
     </div>
   </div>
 </template>
 
+
 <script>
 export default {
-  name: 'Link'
+  name: 'Link',
+  props: {
+    link: Object
+  }
 }
 </script>
