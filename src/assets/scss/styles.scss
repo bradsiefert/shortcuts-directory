@@ -35,11 +35,6 @@ footer {
   padding: 1rem;
 }
 
-footer a {
-  color: $purple;
-  text-decoration: underline;
-}
-
 footer a:hover {
   color: darken($purple, 16%);
   text-decoration: underline;
@@ -115,7 +110,7 @@ footer a:hover {
 .link-developer {
   font-family: $family-code;
   font-weight: bold;
-  font-size: $size-8;
+  font-size: $size-9;
   margin-bottom: 0.5rem;
   color: $black;
 }
@@ -142,11 +137,10 @@ footer a:hover {
   font-family: $family-code;
   font-weight: 600;
   font-size: 0.9375rem;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  // display: -webkit-box;
+  // -webkit-line-clamp: 1;
+  // -webkit-box-orient: vertical;
+  // overflow: hidden;
 }
 
 .link-urls a:hover {
