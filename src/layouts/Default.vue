@@ -126,36 +126,4 @@
       width: 192px;
     }
   }
-  
-  // Menu
-  .menu {
-    font-size: 0.9375rem;
-  }
-
-  .menu-label {
-    font-size: 0.875rem;
-    color: $dark;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-weight: 800;
-    border-radius: 1rem;
-  }
-  
-  .menu-list a {
-    line-height: 1.0625rem;
-  }
-
-  .menu-list a:hover {
-    border-radius: 4rem;
-  }
-
-  .menu-list a:active {
-    color: #9876F8;
-    background-color: #FAF8FF;
-    border-radius: 1rem;
-  }
-
-  .menu-label:not(:last-child) {
-    font-weight: 0.5rem;
-  }
 </style>
