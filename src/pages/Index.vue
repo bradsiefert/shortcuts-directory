@@ -23,7 +23,7 @@
                 resources to help you learn more about Shortcuts, especially for beginners. The Shortcuts User Guide is 
                 Apple's user manual for the Shortcuts app. The Shortcuts subreddit is a good place to ask questions 
                 or search or solutions if you're having issues. Matthew Cassinelli and MacStories each have hundreds 
-                of shortcuts on their sites for you to check out and customize to fit your needs.
+                of shortcuts on their sites to check out and customize to fit your needs.
               </p>
             </div>
 
