@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Shortcuts Directory',
-  siteDescription: "A curated collection of the best links about Apple's Shortcuts app.",
+  siteDescription: "Curated collections of the best links about Apple's Shortcuts app.",
   siteUrl: 'https://shortcuts.link',
   titleTemplate: `Shortcuts Directory / %s`,
   icon: 'src/favicon.png',

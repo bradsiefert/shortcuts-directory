@@ -11,7 +11,7 @@
 
         <div class="columns">
           <div class="column is-one-quarter-desktop is-one-fifth-tablet">
-            <Categories />
+            <Collections />
           </div>
 
           <div class="column">
@@ -64,7 +64,7 @@ query Links {
 
 <script>
 import Layout from '@/layouts/Default.vue'
-import Categories from '@/components/Categories.vue'
+import Collections from '@/components/Collections.vue'
 import LinkApp from '@/components/LinkApp.vue'
 
 export default {
@@ -72,11 +72,11 @@ export default {
     title: 'Links / Extension Apps'
   },
   components: {
-    Categories, Layout, LinkApp
+    Collections, Layout, LinkApp
   },
   data () {
     return {
-      title: "Curated lists of the best links about Shortcuts"
+      title: "Curated collections of the best links about Shortcuts"
     }
   }
 }

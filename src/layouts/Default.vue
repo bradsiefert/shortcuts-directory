@@ -22,7 +22,7 @@
 
             <div class="navbar-menu is-shadowless" :class="{ 'is-active': showNav } ">
               <div class="navbar-end">
-                <g-link class="navbar-item" to="/">Links</g-link>
+                <g-link class="navbar-item" to="/">Collections</g-link>
                 <g-link class="navbar-item" to="/about">About</g-link>
                 <g-link class="navbar-item" to="/submitalink">Submit A Link</g-link>
               </div>

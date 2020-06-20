@@ -18,7 +18,7 @@
         </p>
 
         <p>
-          I love Shortcuts, I think it's one of the most exciting No-code platforms right now, but I'm worried that 
+          I love Shortcuts, I think its one of the most exciting No-code platforms right now, but I'm worried that 
           people don't know where to start when it comes to creating their own shortcuts. I hope this site connects 
           you with the resources to make all kinds of shortcuts that make your life better.
         </p>

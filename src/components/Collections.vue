@@ -1,7 +1,7 @@
 <template lang="html">
   <aside class="menu">
     <p class="menu-label">
-      Categories
+      Collections
     </p>
     <ul class="menu-list">
       <li><g-link title="Start Here" to="/" exact>Start Here</g-link></li>
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'Categories'
+  name: 'Collections'
 }
 </script>
 
