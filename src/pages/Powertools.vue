@@ -72,7 +72,7 @@ export default {
     title: 'Links / News & Blogs'
   },
   components: {
-    Categories, Layout, Link
+    Collections, Layout, Link
   },
   data () {
     return {

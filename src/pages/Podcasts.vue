@@ -72,7 +72,7 @@ export default {
     title: 'Links / Podcasts'
   },
   components: {
-    Categories, Layout, Link
+    Collections, Layout, Link
   },
   data () {
     return {
