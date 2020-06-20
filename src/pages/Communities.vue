@@ -69,7 +69,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / Communities'
+    title: 'Communities'
   },
   components: {
     Collections, Layout, Link

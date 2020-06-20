@@ -69,7 +69,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / Gallery Sites'
+    title: 'Gallery Sites'
   },
   components: {
     Collections, Layout, Link

@@ -69,7 +69,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / Expert & Enthusiast Creators'
+    title: 'Expert & Enthusiast Creators'
   },
   components: {
     Collections, Layout, Link

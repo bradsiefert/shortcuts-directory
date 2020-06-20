@@ -69,7 +69,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / News & Blogs'
+    title: 'News & Blogs'
   },
   components: {
     Collections, Layout, Link

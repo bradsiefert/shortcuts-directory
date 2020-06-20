@@ -69,7 +69,7 @@ import LinkApp from '@/components/LinkApp.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / Extension Apps'
+    title: 'Extension Apps'
   },
   components: {
     Collections, Layout, LinkApp

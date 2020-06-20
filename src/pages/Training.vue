@@ -69,7 +69,7 @@ import Link from '@/components/Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Links / Paid Training'
+    title: 'Paid Training'
   },
   components: {
     Collections, Layout, Link
