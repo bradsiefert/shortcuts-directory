@@ -27,5 +27,5 @@ export default function (Vue, { router, head, isClient }) {
   head.meta.push({ property: 'og:url', content: 'https://shortcuts.directory'}),
   head.meta.push({ property: 'og:title', content: 'Shortcuts Directory'}),
   head.meta.push({ property: 'og:description', content: 'Curated collections of the best links about Apple&apos;s Shortcuts app.'}),
-  head.meta.push({ property: 'og:image', content: 'https://shortcuts-directory.netlify.app/sharing-tile.jpg'})
+  head.meta.push({ property: 'og:image', content: 'https://shortcuts-directory.netlify.app/sharingtile.jpg'})
 }
