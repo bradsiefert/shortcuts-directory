@@ -13,6 +13,7 @@
       <li><g-link title="Communities" to="/communities">Communities</g-link></li>
       <li><g-link title="News & Blogs" to="/newsandblogs">News & Blogs</g-link></li>
       <li><g-link title="Power Tools" to="/powertools">Power Tools</g-link></li>
+      <li><g-link title="History" to="/history">History</g-link></li>
       <li><g-link title="International" to="/international">International</g-link></li>
     </ul>
   </aside>
