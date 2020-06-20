@@ -23,34 +23,34 @@
           </label>
         </p>
         <div class="field">
-          <label for="Contact Name" class="label">Name</label>
-          <div class="control">
+          <label for="Contact Name" class="label is-small">Name</label>
+          <div class="control is-small">
             <input name="Contact Name" class="input" type="text" placeholder="Your Name (optional)">
           </div>
         </div>
 
         <div class="field">
-          <label for="" class="label">Email</label>
-          <div class="control">
+          <label for="" class="label is-small">Email</label>
+          <div class="control is-small">
             <input name="Email Address" class="input" type="email" placeholder="name@email.com (optional)">
           </div>
         </div>
 
         <div class="field">
-          <label for="URL" class="label">URL to Send</label>
-          <div class="control">
+          <label for="URL" class="label is-small">URL to Send</label>
+          <div class="control is-small">
             <input name="URL" class="input" type="text" placeholder="https://">
           </div>
         </div>
 
         <div class="field">
-          <label for="Message" class="label">Message</label>
+          <label for="Message" class="label is-small">Message</label>
           <textarea name="Message" class="textarea" placeholder="Send a message if you'd like. (optional)"></textarea>
         </div>
 
         <div class="field">
-          <div class="control">
-            <button class="button is-link is-medium is-fullwidth" type="submit">Send it ✅</button>
+          <div class="control is-small">
+            <button class="button is-link is-medium" type="submit">Send it ✅</button>
           </div>
         </div>
       </form>
