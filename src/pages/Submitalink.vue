@@ -10,7 +10,7 @@
       <h2 class="title is-4">Send a Link</h2>
 
       <form 
-        name="Shortcuts Directory / Contact Form"
+        name="contact"
         method="post"
         action="/success/"
         data-netlify="true"
