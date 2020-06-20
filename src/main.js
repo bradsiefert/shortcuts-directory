@@ -21,11 +21,5 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap'
-  }),
-  // Facebook Graph API Sharing Tiles
-  // head.meta.push({ property: 'og:type', content: 'article'}),
-  // head.meta.push({ property: 'og:url', content: 'https://shortcuts.directory'}),
-  // head.meta.push({ property: 'og:title', content: 'Shortcuts Directory'}),
-  // head.meta.push({ property: 'og:description', content: 'Curated collections of the best links about Apple&apos;s Shortcuts app.'}),
-  // head.meta.push({ property: 'og:image', content: 'https://shortcuts-directory.netlify.app/sharingtile.jpg'})
+  })
 }
