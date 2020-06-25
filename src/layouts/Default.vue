@@ -42,7 +42,7 @@
         </div>
       </div><!-- /hero-body -->
     </section>
-    
+
     <transition name="fade" appear>
       <main>
         <slot/>
@@ -85,7 +85,6 @@
   .fade-enter {
     opacity: 0;
   }
-
 
   // Hero
   .top-bar {
