@@ -1,5 +1,5 @@
 // Custom Colors
-$pink: #FF85B8;
+$pink: #F86EA7;
 $dark-purple: #1B2357;
 
 // Colors
@@ -21,7 +21,7 @@ $green:	#21D274;
 $turquoise:	#10E1A3;
 $cyan:	#53B1FF;
 $blue:	#0775ED;
-$purple:	#5C58CE;
+$purple:	#5c58ce;
 $red:	#E74138;
 
 $primary: $turquoise;
@@ -85,8 +85,8 @@ $navbar-item-hover-background-color: transparent;
 $navbar-box-shadow-color: transparent;
 
 // Menus
-$menu-item-color: #FF81B9;
-$menu-item-hover-color: #FF81B9;
+$menu-item-color: $link-light;
+$menu-item-hover-color: $link-light;
 $menu-item-hover-background-color: #FFF8FB;
 $menu-list-line-height: 1.125;
 $menu-list-link-padding: 0.5em 1em;
