@@ -40,6 +40,26 @@ footer a:hover {
   padding: 1rem 1.5rem;
 }
 
+.ph {
+  position: fixed;
+  bottom: 32px;
+  right: 16px;
+  width: 192px;
+  z-index: 99;
+}
+
+@media (max-width: 1024px) {
+  .ph {
+    position: static;
+    text-align: center;
+    width: 224px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: -24px;
+  }
+}
+
 // Link Boxes
 .box {
   background-image: linear-gradient(180deg, #F5F5FF 0%, #FFFFFF 100%);

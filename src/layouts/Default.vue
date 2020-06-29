@@ -45,6 +45,12 @@
 
     <transition name="fade" appear>
       <main>
+        <div class="ph">
+          <a href="https://www.producthunt.com/posts/shortcuts-directory?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-shortcuts-directory" target="_blank">
+            <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=210803&theme=light" alt="Shortcuts Directory - Curated collections of the best links about Siri Shortcuts | Product Hunt Embed" />
+          </a>
+        </div>
+
         <slot/>
       </main>
     </transition>
