@@ -1,7 +1,7 @@
 <template>
   <Layout 
     :heroTitle="title" 
-    heroSubtitle="Apple’s Shortcuts app (formerly Siri Shortcuts) is an exciting platform for automating tasks. 
+    heroSubtitle="Apple’s Shortcuts app (aka Siri Shortcuts) is an exciting platform for automating tasks. 
     This directory is my attempt to collect all the best Shortcuts resources. I hope it helps you find and create 
     shortcuts to make your life better."
   >
