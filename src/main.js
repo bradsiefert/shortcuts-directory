@@ -24,4 +24,4 @@ export default function (Vue, { router, head, isClient }) {
   })
 }
 
-// Comment to trigger push to master 2020-08-27
+// Comment to trigger push to master 2020-09-23
