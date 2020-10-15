@@ -59,7 +59,7 @@
       <p class="has-text-centered">
         <small>
           &copy; {{ new Date().getFullYear() }} |
-          Updated <date>2020-09-23</date> | Made by 
+          Updated <date>2020-10-15</date> | Made by 
           <a target="_blank" href="https://brad.si" title="Brad Siefert's Design Portfolio" rel="noreferrer">
             Brad Siefert</a>
           <a target="_blank" href="https://twitter.com/bksiefert" title="Brad Siefert's Twitter" rel="noreferrer">

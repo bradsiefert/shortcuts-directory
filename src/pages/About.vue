@@ -52,7 +52,7 @@
           I'm a Chicago based UI/UX designer and photographer who loves creating technology that makes 
           people's lives more efficient. I've struggled to learn programming for many years and learning 
           to use the Shortcuts app clicked for me in a way that no other programming language did before. 
-          For more info about me, please check out <a target="_new" href="https://brad.si/">my design portfolio</a> or 
+          For more info about me, please check out <a target="_new" href="https://bradsiefert.com/">my design portfolio</a> or 
           <a target="_new" href="https://bradleysiefert.com/">my photography portfolio</a> or hit me up on 
           <a target="_blank" href="https://twitter.com/bksiefert">Twitter</a>.
         </p>
