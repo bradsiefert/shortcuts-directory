@@ -7,7 +7,7 @@
   >
     <section class="section">
       <div class="container skinny">
-        <hr class="divider"></hr>
+        <hr class="divider">
 
         <div class="columns">
           <div class="column is-one-quarter-desktop is-one-fifth-tablet">
@@ -16,7 +16,7 @@
 
           <div class="column">
             <div class="content">
-              <hr class="divider is-hidden-tablet"></hr>
+              <hr class="divider is-hidden-tablet">
               <h2 class="title is-4">Start Here</h2>
               <p>
                 New to Shortcuts? These links are the best places to start. Each link is full of great 
