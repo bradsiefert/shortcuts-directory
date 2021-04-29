@@ -26,8 +26,14 @@
               <div class="column is-half" v-for="edge in $page.links.edges" :key="edge.node.id">
                 <Link :link="edge.node"/> 
               </div>
+              
+              <!-- <div class="column is-half" v-for="edge in $page.historylinks.edges" :key="edge.node.id">
+                <Link :link="edge.node"/> 
+              </div> -->
 
             </div><!-- /columns is-multiline-->
+            
+            
           </div>
         </div><!-- /columns -->
 
@@ -59,7 +65,30 @@ query Links {
       }
     }
   }
+  
+  historylinks: allLink (
+    filter: { category: { contains: "History" } }
+    sortBy: "sortingOrderId" order: ASC
+  ) {
+    edges {
+      node {
+        id
+        linkName
+        description
+        url
+        category
+        status
+        appStoreUrl
+        appDeveloper
+        urlShort
+        urlDomain
+        iconShort
+        sortingOrderId
+      }
+    }
+  }
 }
+
 </page-query>
 
 <script>
