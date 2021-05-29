@@ -58,7 +58,7 @@
     <footer>
       <p class="has-text-centered">
         <small>
-          <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> | Last Update: <date>2021-05-21</date> | Made by 
+          <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> | Last Update: <date>2021-05-29</date> | Made by 
           <a target="_blank" href="https://bradsiefert.com" title="Brad Siefert's Design Portfolio" rel="noreferrer">Brad Siefert</a>
           <a target="_blank" href="https://twitter.com/bksiefert" title="Brad Siefert's Twitter" rel="noreferrer">
           <font-awesome :icon="['fab', 'twitter']" class="ml-3"/></a>
