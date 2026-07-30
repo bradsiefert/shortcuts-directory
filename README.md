@@ -22,9 +22,9 @@ This will on start the local development server at: http://localhost:3000
 ## Dealing with the production/live site
 The website is hosted at [Netlify](https://netlify.com) and has continuous integration setup with the Github repository. Anytime a change is pushed to a branch, the site is rebuilt and published on Netlify.
 
-If the change is pushed to the `master` branch, it will immediate go live to the internet at photos.bradsiefert.com. If the change is pushed to any other branch, the change will create a Deploy Preview in Netlify where the changes can be reviewed. The changes on that branch must be merged into the `master` branch for them to be built and to go live on the production site (photos.bradsiefert.com).
+If the change is pushed to the `master` branch, it will immediate go live to the internet at shortcuts.directory. If the change is pushed to any other branch, the change will create a Deploy Preview in Netlify where the changes can be reviewed. The changes on that branch must be merged into the `master` branch for them to be built and to go live on the production site (shortcuts.directory).
 
-## Nuxt 3 production build options
+## Nuxt 4 production build options
 Nuxt has a these options for building or previewing the site.
 
 Locally preview production build:

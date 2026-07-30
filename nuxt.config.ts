@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -17,8 +16,7 @@ export default defineNuxtConfig({
   },
   css: [
     '@/assets/scss/styles.scss'
-    // Needed to install sass and bulma to make this work.
   ],
 
-  compatibilityDate: '2024-12-27'
+  compatibilityDate: '2026-07-30'
 })
